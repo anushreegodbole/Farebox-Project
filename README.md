@@ -107,7 +107,7 @@ for i in range(len(allrates)):
         
 for i in range(len(allrates)):
     del allrates[i][1:]
-```
+
 
 
 #were actually converted on excel:
@@ -120,7 +120,6 @@ for r in zip(clean_continent, clean_countries, clean_system, clean_ratios, clean
     cur.execute(sql)
     conn.commit()
 
-'''
-
+```
     
 
