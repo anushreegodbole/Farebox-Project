@@ -7,6 +7,7 @@ import pickle
 import sqlite3
 ```
 
+'''
 refresh= True 
 
 if refresh:
@@ -119,7 +120,7 @@ for r in zip(clean_continent, clean_countries, clean_system, clean_ratios, clean
     cur.execute(sql)
     conn.commit()
 
-
+'''
 
     
 
