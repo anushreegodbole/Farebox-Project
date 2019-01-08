@@ -7,7 +7,7 @@ import pickle
 import sqlite3
 ```
 
-'''
+```
 refresh= True 
 
 if refresh:
@@ -107,7 +107,7 @@ for i in range(len(allrates)):
         
 for i in range(len(allrates)):
     del allrates[i][1:]
-
+```
 
 
 #were actually converted on excel:
